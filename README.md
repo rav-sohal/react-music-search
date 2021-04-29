@@ -1,7 +1,7 @@
 # React-iTunes-Music-App
 
-## Tech stack 
+### Tech stack 
 
-React
-Styled Components
-Jest
+- React
+- Styled Components
+- Jest
