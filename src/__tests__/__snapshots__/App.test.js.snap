@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js tests Snapshot test of App 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand navbar-light"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="navbar-brand"
+        href="#home"
+        style={
+          Object {
+            "fontSize": "38px",
+            "fontWeight": "bolder",
+          }
+        }
+      >
+        SYFM
+      </a>
+      <button
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="justify-content-end navbar-collapse collapse"
+      >
+        <span
+          className="navbar-text"
+        >
+          Search your favourite music
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="jumbotron"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      <h1>
+        Search iTunes Music
+      </h1>
+      <p>
+        Search your favourite artist, album or song.
+      </p>
+      <div
+        className="sc-bdvvaa gYYXMo"
+      >
+        <form
+          className="form-group"
+          onSubmit={[Function]}
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-9"
+            >
+              <input
+                className="sc-gsDJrp hzTNRY form-control"
+                name="search"
+                onChange={[Function]}
+                placeholder="Search..."
+                type="search"
+              />
+            </div>
+            <div
+              className="col-md-3"
+            >
+              <button
+                className="btn btn-success btn-lg btn-block sm-mt-3"
+                id="submit"
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <h4>
+      Todays random selection
+    </h4>
+    <hr />
+  </div>
+  <div
+    className="container text-center mt-3"
+  >
+    <div
+      className="spinner-border text-secondary"
+    >
+      <span
+        className="sr-only text-center"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
